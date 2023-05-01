@@ -3,6 +3,14 @@
     margin-bottom: -7px;
 }
 
+/* .navigation {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+} */
+
 .banner {
     height: 650px;
     width: 100%;

@@ -3,12 +3,12 @@ import styles from "./styles/header.module.css";
 
 const Header = () => {
     return (
-        <header className={`${styles["heading"]}`}>
+        <header id="home" className={`${styles["heading"]}`}>
             <nav className={`${styles["navigation"]}`}>
                 <ul className={`${styles["navbar"]}`}>
                     <li><a className={`${styles["nav-link"]}`} href="#home">Home</a></li>
                     <li><a className={`${styles["nav-link"]}`} href="#about">About Me</a></li>
-                    <li><a className={`${styles["nav-link"]}`} href="#gallery">Gallery</a></li>
+                    <li><a className={`${styles["nav-link"]}`} href="#projects">Projects</a></li>
                     <li><a className={`${styles["nav-link"]}`} href="#services">Service</a></li>
                     <li><a className={`${styles["nav-link"]}`} href="#reviews">Reviews</a></li>
                     <li><a className={`${styles["nav-link"]}`} href="#pricing">Pricing</a></li>
