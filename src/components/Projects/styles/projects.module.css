@@ -1,0 +1,45 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.project-heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+.article-project {
+    border: 2px solid black;
+    width: 300px;
+    height: 420px;
+    margin:0px 0px 40px 40px;
+    background-color: #19e79c;
+}
+
+.project-img {
+    width: 300px;
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+
+.article-project:nth-of-type(2) {
+    background-color: #f5e5d0;
+}
+
+.article-project:nth-of-type(3) {
+    background-color: #292a2d;
+    color: white;
+}
+
+.project-img-cinema {
+    width: 300px;
+    height: 100px;
+}
+
+.article-project h3 {
+    border-bottom: 2px solid black;
+}
+.article-project p:not(:last-child) {
+    border-bottom: 2px solid black;
+}
