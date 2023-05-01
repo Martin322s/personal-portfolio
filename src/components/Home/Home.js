@@ -8,18 +8,19 @@ const Home = () => {
                 id="about"
                 className={`${styles["about-section"]}`}
             >
-                    <img className={`${styles["profile"]}`} src={profile} alt="profile" />
+                <img className={`${styles["profile"]}`} src={profile} alt="profile" />
                 <div>
                     <article className={`${styles["info"]}`}>
-                        <h1 className={`${styles["about-heading"]}`}>My Bio</h1>
+                        <h1 className={`${styles["about-heading"]}`}>About me:</h1>
                         <p>
                             I decided to with start programming at the high school. My first language
                             was C++ until the first year in the university. Then i saw and started officialy
                             with JavaScript. I have no professional experience, and I am oriented towards an
                             internship or junior program.
                         </p>
+                        <button className={`${styles["download-btn"]}`}>Download CV</button>
                     </article>
-                    <h3>Technology Stack:</h3>
+                    <h3>Technology stack skills:</h3>
                     <article>
                         <div className={`${styles["progress-one"]} ${styles["progress"]}`}>
                             <div className="label">JavaScript</div>
