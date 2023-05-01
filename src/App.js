@@ -1,13 +1,15 @@
+import Education from "./components/Education/Education";
 import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
+import About from "./components/Home/About";
 import Projects from "./components/Projects/Projects";
 
 function App() {
     return (
         <>
             <Header />
-            <Home />
+            <About />
             <Projects />
+            <Education />
         </>
     );
 }

@@ -1,7 +1,7 @@
-import styles from "./styles/home.module.css";
+import styles from "./styles/about.module.css";
 import profile from "./images/profile.jpg";
 
-const Home = () => {
+const About = () => {
     return (
         <>
             <div id="about">
@@ -49,4 +49,4 @@ const Home = () => {
         </>
     );
 }
-export default Home;
+export default About;

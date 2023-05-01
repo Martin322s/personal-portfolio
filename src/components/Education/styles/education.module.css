@@ -1,0 +1,35 @@
+.education-heading {
+    text-align: center;
+    font-size: 40px;
+    background-color: #f4f6fc;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.premier-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.education {
+    display: flex;
+    background-color: #f4f6fc;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.premier {
+    border: 2px solid black;
+    width: 460px;
+    margin: 20px;
+    padding: 10px 15px 10px 15px;
+}
+
+.premier > p > a {
+    text-decoration: none;
+    color: blue;
+}
+
+.premier > ul {
+    font-size: 20px;
+}
