@@ -1,0 +1,26 @@
+.banner {
+    height: 650px;
+    width: 100%;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    align-items: center;
+    padding: 5px 8px 5px 8px;
+    margin: 0px 5px 0px 5px;
+}
+
+.nav-link:hover {
+    padding: 5px 8px 5px 8px;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 208, 255);
+}
