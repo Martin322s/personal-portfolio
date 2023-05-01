@@ -9,9 +9,7 @@ const Header = () => {
                     <li><a className={`${styles["nav-link"]}`} href="#home">Home</a></li>
                     <li><a className={`${styles["nav-link"]}`} href="#about">About Me</a></li>
                     <li><a className={`${styles["nav-link"]}`} href="#projects">Projects</a></li>
-                    <li><a className={`${styles["nav-link"]}`} href="#services">Service</a></li>
-                    <li><a className={`${styles["nav-link"]}`} href="#reviews">Reviews</a></li>
-                    <li><a className={`${styles["nav-link"]}`} href="#pricing">Pricing</a></li>
+                    <li><a className={`${styles["nav-link"]}`} href="#education">Education</a></li>
                     <li><a className={`${styles["nav-link"]}`} href="#contact">Contact Me</a></li>
                 </ul>
             </nav>

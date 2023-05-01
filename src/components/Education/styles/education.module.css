@@ -20,13 +20,9 @@
 
 .premier {
     border: 2px solid black;
-    width: 460px;
+    width: 400px;
     margin: 20px;
     padding: 10px 15px 10px 15px;
-}
-
-.premier:nth-of-type(4) {
-    margin-left: 290px;
 }
 
 .premier > p > a {
