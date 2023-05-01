@@ -15,7 +15,15 @@ const Header = () => {
                     <li><a className={`${styles["nav-link"]}`} href="#contact">Contact Me</a></li>
                 </ul>
             </nav>
-            <img className={`${styles["banner"]}`} src={banner} alt="banner" />
+            <div className={`${styles["container"]}`}>
+                <img className={`${styles["banner"]}`} src={banner} alt="banner" />
+                <div className={`${styles["gradient"]}`}></div>
+                <h1 className={`${styles["heading-title"]}`}>Welcome to my personal portfolio!</h1>
+                <p className={`${styles["welcoming-msg"]}`}>
+                    I'm an enthusiastic junior front-end developer with a desire to grow 
+                    and improve every day. I'm ready to learn and develop my skills.
+                </p>
+            </div>
         </header>
     );
 };
