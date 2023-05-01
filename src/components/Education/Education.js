@@ -3,7 +3,7 @@ import styles from "./styles/education.module.css";
 const Education = () => {
     return (
         <>
-            <h1 className={`${styles["education-heading"]}`}>Education and Courses</h1>
+            <h1 id="projects" className={`${styles["education-heading"]}`}>Education and Courses</h1>
             <section className={`${styles["education"]}`}>
                 <article className={`${styles["premier"]}`}>
                     <h1 className={`${styles["premier-title"]}`}>Technical University - Sofia (09/2020 - Present)</h1>
