@@ -10,10 +10,11 @@ const Footer = () => {
             </div>
             {/* eslint-disable-next-line */}
             <ul role={"list"}>
-                <li>About me</li>
-                <li>Education</li>
-                <li>Projects</li>
-                <li>Contact me</li>
+                <li><a className={`${styles["footer-link"]}`} href="#home">Home</a></li>
+                <li><a className={`${styles["footer-link"]}`} href="#about">About Me</a></li>
+                <li><a className={`${styles["footer-link"]}`} href="#projects">Projects</a></li>
+                <li><a className={`${styles["footer-link"]}`} href="#education">Education</a></li>
+                <li><a className={`${styles["footer-link"]}`} href="#contact">Contact Me</a></li>
             </ul>
             {/* eslint-disable-next-line */}
             <ul role={"list"}>
