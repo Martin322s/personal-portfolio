@@ -5,19 +5,19 @@ const Footer = () => {
     return (
         <footer className={`${styles["footer"]} ${resp["footer"]}`}>
             <div>
-                <h1 className={styles["footer_heading"]}>NutriGit</h1>
-                <p>All rights reserved &copy; by Martin Sofroniev</p>
+                <h1 className={styles["footer_heading"]}>Personal Portfolio</h1>
+                <p>All rights reserved &copy; Created by Martin Sofroniev</p>
             </div>
             {/* eslint-disable-next-line */}
             <ul role={"list"}>
-                <li>About us</li>
-                <li>FAQ</li>
-                <li>Terms and Conditions</li>
-                <li>Contacts</li>
+                <li>About me</li>
+                <li>Education</li>
+                <li>Projects</li>
+                <li>Contact me</li>
             </ul>
             {/* eslint-disable-next-line */}
             <ul role={"list"}>
-                <li>Follow us on</li>
+                <li>Follow me on</li>
                 <li className={styles["footer-item"]}>
                     <a
                         className={styles["footer-link"]}

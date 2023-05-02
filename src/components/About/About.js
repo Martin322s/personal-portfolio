@@ -18,7 +18,7 @@ const About = () => {
                                 with JavaScript. I have no professional experience, and I am oriented towards an
                                 internship or junior program.
                             </p>
-                            <button className={`${styles["download-btn"]}`}>Download CV</button>
+                            <button className={`${styles["download-btn"]}`}>Download my CV</button>
                         </article>
                         <h3>Technology stack skills:</h3>
                         <article>

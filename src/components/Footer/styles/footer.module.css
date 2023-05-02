@@ -5,6 +5,7 @@
     color: white;
     background-color: rgb(37, 37, 37);
     gap: 40px;
+    height: 330px;
 }
 
 footer div p {
@@ -26,5 +27,5 @@ footer div p {
 }
 
 .footer-link:hover {
-    color: #19e79c;
+    color: gold;
 }
