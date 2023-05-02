@@ -19,6 +19,10 @@
     font-size: 25px;
 }
 
+.contact-section > article > ul {
+    color: #4fa90f;
+}
+
 .contact-form {
     border: 2px solid black;
     width: 640px;
@@ -58,4 +62,21 @@
 
 .contact-form label[for="message"] {
     display: block;
+}
+
+.contact-form label {
+    color: #62ce14;
+}
+
+.send-btn {
+    background-color: #a2d67c;
+    padding: 5px 15px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.send-btn:hover {
+    background-color: black;
+    color: gold;
+    transition: background-color 0.7 ease;
 }

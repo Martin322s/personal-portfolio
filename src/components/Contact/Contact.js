@@ -3,7 +3,7 @@ import styles from "./styles/contact.module.css";
 const Contact = () => {
     return (
         <>
-            <h1 className={`${styles["contact-heading"]}`}>Contact me</h1>
+            <h1 id="contact" className={`${styles["contact-heading"]}`}>Contact me</h1>
             <section className={`${styles["contact-section"]}`}>
                 <form className={`${styles["contact-form"]}`}>
                         <label htmlFor="fname">First name: </label>
