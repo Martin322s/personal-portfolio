@@ -23,15 +23,25 @@
     background-color: #19e79c;
     border-radius: 30px;
     padding: 20px 20px 10px 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.article-project:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .article-project a {
-    color: black;
+    color: blue;
     text-decoration: none;
 }
 
+.article-project a:hover {
+    text-decoration: underline;
+}
+
 .article-project:nth-of-type(3) a {
-    color: white;
+    color: rgb(0, 140, 255);
 }
 
 .project-img {
