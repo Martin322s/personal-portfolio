@@ -16,13 +16,16 @@
     background-color: #f4f6fc;
     gap: 40px;
     flex-wrap: wrap;
+    border-bottom: 2px solid black;
 }
 
 .premier {
     border: 2px solid black;
     width: 400px;
     margin: 20px;
+    margin-left: 50px;
     padding: 10px 15px 10px 15px;
+    background-color: rgb(247, 183, 66);
 }
 
 .premier > p > a {
