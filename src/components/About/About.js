@@ -1,28 +1,29 @@
 import styles from "./styles/about.module.css";
 import profile from "./images/profile.jpg";
+import responsive from "./styles/responsive.module.css";
 
 const About = () => {
     return (
         <>
             <div id="about">
                 <section
-                    className={`${styles["about-section"]}`}
+                    className={`${styles["about-section"]} ${responsive["about-section"]}`}
                 >
-                    <img className={`${styles["profile"]}`} src={profile} alt="profile" />
+                    <img className={`${styles["profile"]} ${responsive["profile"]}`} src={profile} alt="profile" />
                     <div>
-                        <article className={`${styles["info"]}`}>
-                            <h1 className={`${styles["about-heading"]}`}>About me:</h1>
+                        <article className={`${styles["info"]} ${responsive["info"]}`}>
+                            <h1 className={`${styles["about-heading"]} ${responsive["about-heading"]}`}>About me:</h1>
                             <p>
                                 I decided to with start programming at the high school. My first language
                                 was C++ until the first year in the university. Then i saw and started officialy
                                 with JavaScript. I have no professional experience, and I am oriented towards an
                                 internship or junior program.
                             </p>
-                            <a className={`${styles["download-btn-link"]}`} href="https://github.com/MaRtin322s" target="_blank" rel="noreferrer">GitHub account</a>
-                            <button className={`${styles["download-btn"]}`}>Download my CV</button>
+                            <a className={`${styles["download-btn-link"]} ${responsive["download-btn-link"]}`} href="https://github.com/MaRtin322s" target="_blank" rel="noreferrer">GitHub account</a>
+                            <button className={`${styles["download-btn"]} ${responsive["download-btn"]}`}>Download my CV</button>
                         </article>
-                        <h3>Technology stack skills:</h3>
-                        <article>
+                        <h3 className={`${responsive["stack"]}`}>Technology stack skills:</h3>
+                        <article className={`${responsive["stack"]}`}>
                             <div className={`${styles["progress-one"]} ${styles["progress"]}`}>
                                 <div className="label">JavaScript</div>
                                 <div className={`${styles["bar"]}`}>98%</div>
