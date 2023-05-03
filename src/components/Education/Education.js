@@ -35,24 +35,26 @@ const Education = () => {
                         Software University (SoftUni) (06/2021 - 12/2021)
                     </h1>
                     <p>Certificates:</p>
-                    <p>
-                        <a
-                            href="https://softuni.bg/Certificates/Details/119846/33310330"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            https://softuni.bg/Certificates/Details/119846/33310330
-                        </a>
-                    </p>
-                    <p>
-                        <a
-                            href="https://softuni.bg/Certificates/Details/109760/da7bc71a"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            https://softuni.bg/Certificates/Details/109760/da7bc71a
-                        </a>
-                    </p>
+                    <div className={`${responsive["certificates"]}`}>
+                        <p>
+                            <a
+                                href="https://softuni.bg/Certificates/Details/119846/33310330"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                https://softuni.bg/Certificates/Details/119846/33310330
+                            </a>
+                        </p>
+                        <p>
+                            <a
+                                href="https://softuni.bg/Certificates/Details/109760/da7bc71a"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                https://softuni.bg/Certificates/Details/109760/da7bc71a
+                            </a>
+                        </p>
+                    </div>
                     <h3>Module: JavaScript Fundamentals 2021</h3>
                     <ul>
                         <li>Conditional Statements</li>
@@ -69,25 +71,27 @@ const Education = () => {
                         Software University (SoftUni) (01/2022 - 04/2022)
                     </h1>
                     <p>Certificates:</p>
-                    <p>
-                        <a
-                            href="https://softuni.bg/Certificates/Details/150178/5ffc9922"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            https://softuni.bg/Certificates/Details/150178/5ffc9922
-                        </a>
-                    </p>
-                    <p>
-                        <a
-                            href="https://softuni.bg/Certificates/Details/153052/8aae6bc4"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
+                    <div className={`${responsive["certificates"]}`}>
+                        <p>
+                            <a
+                                href="https://softuni.bg/Certificates/Details/150178/5ffc9922"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                https://softuni.bg/Certificates/Details/150178/5ffc9922
+                            </a>
+                        </p>
+                        <p>
+                            <a
+                                href="https://softuni.bg/Certificates/Details/153052/8aae6bc4"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
 
-                            https://softuni.bg/Certificates/Details/153052/8aae6bc4
-                        </a>
-                    </p>
+                                https://softuni.bg/Certificates/Details/153052/8aae6bc4
+                            </a>
+                        </p>
+                    </div>
                     <h3>Module: JavaScript Advanced 2022</h3>
                     <ul>
                         <li>Arrays and Nested Arrays</li>
@@ -109,25 +113,27 @@ const Education = () => {
                         Software University (SoftUni) (09/2022 - 12/2022)
                     </h1>
                     <p>Certificates:</p>
-                    <p>
-                        <a
-                            href="https://softuni.bg/Certificates/Details/146819/92b53ff9"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            https://softuni.bg/Certificates/Details/146819/92b53ff9
-                        </a>
-                    </p>
-                    <p>
-                        <a
-                            href="https://softuni.bg/Certificates/Details/170039/8a356289"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
+                    <div className={`${responsive["certificates"]}`}>
+                        <p>
+                            <a
+                                href="https://softuni.bg/Certificates/Details/146819/92b53ff9"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                https://softuni.bg/Certificates/Details/146819/92b53ff9
+                            </a>
+                        </p>
+                        <p>
+                            <a
+                                href="https://softuni.bg/Certificates/Details/170039/8a356289"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
 
-                            https://softuni.bg/Certificates/Details/170039/8a356289
-                        </a>
-                    </p>
+                                https://softuni.bg/Certificates/Details/170039/8a356289
+                            </a>
+                        </p>
+                    </div>
                     <h3>Module: JavaScript Web 2022 (NodeJS / ReactJS)</h3>
                     <ul>
                         <li>Node.js Streams and Utilities</li>
@@ -149,15 +155,17 @@ const Education = () => {
                         Software University (SoftUni) (01/2023 - 03/2023)
                     </h1>
                     <p>Certificates:</p>
-                    <p>
-                        <a
-                            href="https://softuni.bg/Certificates/Details/163170/395647b6"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            https://softuni.bg/Certificates/Details/163170/395647b6
-                        </a>
-                    </p>
+                    <div className={`${responsive["certificates"]}`}>
+                        <p>
+                            <a
+                                href="https://softuni.bg/Certificates/Details/163170/395647b6"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                https://softuni.bg/Certificates/Details/163170/395647b6
+                            </a>
+                        </p>
+                    </div>
                     <h3>Course: HTML & CSS</h3>
                     <ul>
                         <li>Semantical HTML Structure</li>

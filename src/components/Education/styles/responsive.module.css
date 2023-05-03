@@ -9,4 +9,9 @@
         margin: 10px 5px 25px 5px;
         padding: 10px;
     }
+    
+    .certificates {
+        font-size: 13px;
+        width: 300px;
+    }
 }
