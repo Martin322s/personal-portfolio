@@ -1,4 +1,5 @@
 import styles from "./styles/projects.module.css";
+import responsive from "./styles/responsive.module.css";
 import nutri from "./images/logo-nutri.png";
 import cinema from "./images/cinema.png";
 import share from "./images/share.png";
@@ -7,8 +8,8 @@ const Projects = () => {
     return (
         <>
             <h1 id="projects" className={`${styles["project-heading"]}`}>Top 3 Personal Projects</h1>
-            <section className={`${styles["projects"]}`}>
-                <article className={`${styles["article-project"]}`}>
+            <section className={`${styles["projects"]} ${responsive["projects"]}`}>
+                <article className={`${styles["article-project"]} ${responsive["article-project"]}`}>
                     <img className={`${styles["project-img"]}`} src={nutri} alt="project-img" />
                     <h2 className={`${styles["project-title"]}`}>NutriGit - Healthy food app</h2>
                     <h3 className={`${styles["project-details"]}`}>Project details: SPA</h3>
@@ -38,7 +39,7 @@ const Projects = () => {
                         </a>
                     </p>
                 </article>
-                <article className={`${styles["article-project"]}`}>
+                <article className={`${styles["article-project"]} ${responsive["article-project"]}`}>
                     <img 
                         className={`${styles["project-img-cinema"]}`} 
                         src={cinema} 
@@ -72,7 +73,7 @@ const Projects = () => {
                         </a>
                     </p>
                 </article>
-                <article className={`${styles["article-project"]}`}>
+                <article className={`${styles["article-project"]} ${responsive["article-project"]}`}>
                     <img className={`${styles["project-img"]}`} src={share} alt="project-img" />
                     <h2 className={`${styles["project-title"]}`}>Shared trips - Group travel</h2>
                     <h3 className={`${styles["project-details"]}`}>Project details: MPA</h3>
