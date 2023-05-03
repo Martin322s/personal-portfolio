@@ -1,11 +1,12 @@
 import styles from "./styles/education.module.css";
+import responsive from "./styles/responsive.module.css";
 
 const Education = () => {
     return (
         <>
             <h1 id="education" className={`${styles["education-heading"]}`}>Education and Courses</h1>
-            <section className={`${styles["education"]}`}>
-                <article className={`${styles["premier"]}`}>
+            <section className={`${styles["education"]} ${responsive["education"]}`}>
+                <article className={`${styles["premier"]} ${responsive["premier"]}`}>
                     <h1 className={`${styles["premier-title"]}`}>Technical University - Sofia (09/2020 - Present)</h1>
                     <h3>Specialization: Information technology in the industry (ITI)</h3>
                     <ul>
@@ -27,7 +28,7 @@ const Education = () => {
                         </ul>
                     </ul>
                 </article>
-                <article className={`${styles["premier"]}`}>
+                <article className={`${styles["premier"]} ${responsive["premier"]}`}>
                     <h1
                         className={`${styles["premier-title"]}`}
                     >
@@ -61,7 +62,7 @@ const Education = () => {
                         <li>Test processing and Regular Expressions</li>
                     </ul>
                 </article>
-                <article className={`${styles["premier"]}`}>
+                <article className={`${styles["premier"]} ${responsive["premier"]}`}>
                     <h1
                         className={`${styles["premier-title"]}`}
                     >
@@ -101,7 +102,7 @@ const Education = () => {
                         <li>Client Side Rendering and Routing</li>
                     </ul>
                 </article>
-                <article className={`${styles["premier"]}`}>
+                <article className={`${styles["premier"]} ${responsive["premier"]}`}>
                     <h1
                         className={`${styles["premier-title"]}`}
                     >
@@ -141,7 +142,7 @@ const Education = () => {
                         <li>Context API, Lazy loading and Suspense, HOC</li>
                     </ul>
                 </article>
-                <article className={`${styles["premier"]}`}>
+                <article className={`${styles["premier"]} ${responsive["premier"]}`}>
                     <h1
                         className={`${styles["premier-title"]}`}
                     >
