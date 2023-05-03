@@ -4,7 +4,7 @@ import responsive from "./styles/responsive.module.css";
 
 const Header = () => {
     return (
-        <header id="home" className={`${styles["heading"]}`}>
+        <header id="home" className={`${styles["heading"]} ${responsive["heading"]}`}>
             <nav className={`${styles["navigation"]}`}>
                 <ul className={`${styles["navbar"]} ${responsive["navbar"]}`}>
                     <li><a className={`${styles["nav-link"]}`} href="#home">Home</a></li>

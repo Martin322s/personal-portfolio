@@ -7,7 +7,7 @@ import share from "./images/share.png";
 const Projects = () => {
     return (
         <>
-            <h1 id="projects" className={`${styles["project-heading"]}`}>Top 3 Personal Projects</h1>
+            <h1 id="projects" className={`${styles["project-heading"]} ${responsive["project-heading"]}`}>Top 3 Personal Projects</h1>
             <section className={`${styles["projects"]} ${responsive["projects"]}`}>
                 <article className={`${styles["article-project"]} ${responsive["article-project"]}`}>
                     <img className={`${styles["project-img"]}`} src={nutri} alt="project-img" />

@@ -4,7 +4,7 @@ import responsive from "./styles/responsive.module.css";
 const Contact = () => {
     return (
         <>
-            <h1 id="contact" className={`${styles["contact-heading"]}`}>Contact me</h1>
+            <h1 id="contact" className={`${styles["contact-heading"]} ${responsive["contact-heading"]}`}>Contact me</h1>
             <section className={`${styles["contact-section"]} ${responsive["contact-section"]}`}>
                 <form className={`${styles["contact-form"]} ${responsive["contact-form"]}`}>
                     <div className={`${styles["form-group-one"]} ${responsive["form-group-one"]}`}>

@@ -2,14 +2,16 @@
     .education {
         display: flex;
         flex-direction: column;
+        gap: 0px;
+        margin: 0px;
     }
 
     .premier {
         font-size: 15px;
-        margin: 10px 5px 25px 5px;
-        padding: 10px;
+        margin: 10px 0px 25px 5px;
+        padding: 10px 0px 10px 0px;
     }
-    
+
     .certificates {
         font-size: 13px;
         width: 300px;

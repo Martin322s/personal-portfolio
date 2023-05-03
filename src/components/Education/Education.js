@@ -4,7 +4,7 @@ import responsive from "./styles/responsive.module.css";
 const Education = () => {
     return (
         <>
-            <h1 id="education" className={`${styles["education-heading"]}`}>Education and Courses</h1>
+            <h1 id="education" className={`${styles["education-heading"]} ${responsive["education-heading"]}`}>Education and Courses</h1>
             <section className={`${styles["education"]} ${responsive["education"]}`}>
                 <article className={`${styles["premier"]} ${responsive["premier"]}`}>
                     <h1 className={`${styles["premier-title"]}`}>Technical University - Sofia (09/2020 - Present)</h1>
