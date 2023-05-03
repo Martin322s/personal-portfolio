@@ -1,17 +1,24 @@
 import styles from "./styles/contact.module.css";
+import responsive from "./styles/responsive.module.css";
 
 const Contact = () => {
     return (
         <>
             <h1 id="contact" className={`${styles["contact-heading"]}`}>Contact me</h1>
-            <section className={`${styles["contact-section"]}`}>
-                <form className={`${styles["contact-form"]}`}>
-                        <label htmlFor="fname">First name: </label>
-                            <label htmlFor="lname">Last name: </label>
-                    <div className={`${styles["form-group-one"]}`}>
-                        <input type="text" id="fname" />
+            <section className={`${styles["contact-section"]} ${responsive["contact-section"]}`}>
+                <form className={`${styles["contact-form"]} ${responsive["contact-form"]}`}>
+                    <div className={`${styles["form-group-one"]} ${responsive["form-group-one"]}`}>
+                        <div>
+                            <label htmlFor="fname">First name: </label>
+                            <div>
+                                <input type="text" id="fname" />
+                            </div>
+                        </div>
                         <div className={`${styles["form-group"]}`}>
-                            <input type="text" id="lname" />
+                            <label className={`${responsive["lname"]}`} htmlFor="lname">Last name: </label>
+                            <div>
+                                <input type="text" id="lname" />
+                            </div>
                         </div>
                     </div>
 
@@ -25,7 +32,7 @@ const Contact = () => {
                     </div>
                     <button className={`${styles["send-btn"]}`}>Send Message</button>
                 </form >
-                <article>
+                <article className={`${responsive["contact-info"]}`}>
                     <ul>
                         <li><i className="fas fa-map-marked-alt"></i>  Sofia, Studentski grad 4, Str.</li>
                         <li><i className="fas fa-phone-alt"></i>  +359 877040853</li>

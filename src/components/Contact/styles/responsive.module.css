@@ -1,0 +1,34 @@
+@media all and (min-width: 200px) and (max-width: 600px) {
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form-group-one {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form {
+        width: 400px;
+        margin: 5px 5px 5px 5px;
+    }
+
+    .contact-form input[type="email"] {
+        width: 350px;
+        display: block;
+    }
+
+    .contact-form textarea {
+        width: 350px;
+    }
+
+    .contact-form input {
+        width: 350px;
+    }
+
+    .contact-info li {
+        font-size: 23px;
+    }
+}
