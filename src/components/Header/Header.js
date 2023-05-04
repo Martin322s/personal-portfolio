@@ -14,7 +14,7 @@ const Header = () => {
                     <li><a className={`${styles["nav-link"]}`} href="#contact">Contact Me</a></li>
                 </ul>
             </nav>
-            <div className={`${styles["container"]}`}>
+            <div className={`${styles["container"]} ${responsive["container"]}`}>
                 <img className={`${styles["banner"]}`} src={banner} alt="banner" />
                 <div className={`${styles["gradient"]}`}></div>
                 <div className={`${responsive["container-text"]}`}>

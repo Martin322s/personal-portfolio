@@ -5,12 +5,12 @@ import responsive from "./styles/responsive.module.css";
 const About = () => {
     return (
         <>
-            <div id="about">
+            <div id="about" className={`${responsive["about-container"]}`}>
                 <section
                     className={`${styles["about-section"]} ${responsive["about-section"]}`}
                 >
                     <img className={`${styles["profile"]} ${responsive["profile"]}`} src={profile} alt="profile" />
-                    <div>
+                    <div className={`${responsive["info-section"]}`}>
                         <article className={`${styles["info"]} ${responsive["info"]}`}>
                             <h1 className={`${styles["about-heading"]} ${responsive["about-heading"]}`}>About me:</h1>
                             <p>
