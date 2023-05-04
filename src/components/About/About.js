@@ -1,6 +1,7 @@
 import styles from "./styles/about.module.css";
 import profile from "./images/profile.jpg";
 import responsive from "./styles/responsive.module.css";
+import pdf from "./Martin - CV.pdf";
 
 const About = () => {
     return (
@@ -20,7 +21,7 @@ const About = () => {
                                 internship or junior program.
                             </p>
                             <a className={`${styles["download-btn-link"]} ${responsive["download-btn-link"]}`} href="https://github.com/MaRtin322s" target="_blank" rel="noreferrer">GitHub account</a>
-                            <button className={`${styles["download-btn"]} ${responsive["download-btn"]}`}>Download my CV</button>
+                            <a className={`${styles["download-btn-link"]} ${responsive["download-btn"]}`} href={pdf} target="_blank" rel="noreferrer" downlaod="true">Download my CV</a>
                         </article>
                         <h3 className={`${responsive["stack"]}`}>Technology stack skills:</h3>
                         <article className={`${responsive["stack"]}`}>
