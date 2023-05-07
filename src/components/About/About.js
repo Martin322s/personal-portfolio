@@ -15,7 +15,7 @@ const About = () => {
                         <article className={`${styles["info"]} ${responsive["info"]}`}>
                             <h1 className={`${styles["about-heading"]} ${responsive["about-heading"]}`}>About me:</h1>
                             <p>
-                                I decided to with start programming at the high school. My first language
+                                I decided to start with programming at the high school. My first language
                                 was C++ until the first year in the university. Then i saw and started officialy
                                 with JavaScript. I have no professional experience, and I am oriented towards an
                                 internship or junior program.
