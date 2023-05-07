@@ -45,6 +45,10 @@ const About = () => {
                                 <div className="label">NodeJS</div>
                                 <div className={`${styles["bar"]} ${styles["progress"]}`}>75%</div>
                             </div>
+                            <div className={`${styles["progress-three"]} ${styles["progress"]}`}>
+                                <div className="label">ReactJS</div>
+                                <div className={`${styles["bar"]}`}>90%</div>
+                            </div>
                         </article>
                     </div>
                 </section>
