@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "./styles/contact.module.css";
 import responsive from "./styles/responsive.module.css";
+import * as service from "../../services/contactService";
 
 const Contact = () => {
     const [data, setData] = useState({
@@ -19,7 +20,13 @@ const Contact = () => {
 
     const submitHandler = (ev, contactData) => {
         ev.preventDefault();
-        console.log(contactData);
+        
+        if (Object.values(contactData).some(x => x === "")) {
+            alert("All fields are required!");
+        } else {
+            service.contactEmail(contactData)
+                .then(res => console.log(res));
+        }
     };
 
     return (
@@ -78,8 +85,9 @@ const Contact = () => {
                             rows="5"
                             name="message"
                             onChange={(ev) => changeHandler(ev)}
+                            defaultValue={data.message}
                         >
-                            {data.message}
+                            
                         </textarea>
                     </div>
                     <button className={`${styles["send-btn"]}`}>Send Message</button>
