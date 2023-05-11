@@ -1,34 +1,86 @@
+import { useState } from "react";
 import styles from "./styles/contact.module.css";
 import responsive from "./styles/responsive.module.css";
 
 const Contact = () => {
+    const [data, setData] = useState({
+        firstName: "",
+        lastName: "",
+        email: "",
+        message: ""
+    });
+
+    const changeHandler = (ev) => {
+        setData(state => ({
+            ...state,
+            [ev.target.name]: ev.target.value
+        }));
+    }
+
+    const submitHandler = (ev, contactData) => {
+        ev.preventDefault();
+        console.log(contactData);
+    };
+
     return (
         <>
             <h1 id="contact" className={`${styles["contact-heading"]} ${responsive["contact-heading"]}`}>Contact me</h1>
             <section className={`${styles["contact-section"]} ${responsive["contact-section"]}`}>
-                <form className={`${styles["contact-form"]} ${responsive["contact-form"]}`}>
+                <form
+                    className={`
+                        ${styles["contact-form"]} 
+                        ${responsive["contact-form"]}`
+                    }
+                    onSubmit={(ev) => submitHandler(ev, data)}
+                >
                     <div className={`${styles["form-group-one"]} ${responsive["form-group-one"]}`}>
                         <div>
                             <label htmlFor="fname">First name: </label>
                             <div>
-                                <input type="text" id="fname" />
+                                <input
+                                    type="text"
+                                    id="fname"
+                                    name="firstName"
+                                    onChange={(ev) => changeHandler(ev)}
+                                    value={data.firstName}
+                                />
                             </div>
                         </div>
                         <div className={`${styles["form-group"]}`}>
                             <label className={`${responsive["lname"]}`} htmlFor="lname">Last name: </label>
                             <div>
-                                <input type="text" id="lname" />
+                                <input
+                                    type="text"
+                                    id="lname"
+                                    name="lastName"
+                                    onChange={(ev) => changeHandler(ev)}
+                                    value={data.lastName}
+                                />
                             </div>
                         </div>
                     </div>
 
                     <div className={`${styles["form-group"]}`}>
                         <label htmlFor="email">Email address: </label>
-                        <input type="email" id="email" />
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            onChange={(ev) => changeHandler(ev)}
+                            value={data.email}
+                        />
                     </div>
                     <div className={`${styles["form-group"]}`}>
                         <label htmlFor="message">Message: </label>
-                        <textarea id="message" cols="30" rows="5"></textarea>
+                        <textarea
+                            id="message"
+                            cols="30"
+                            rows="5"
+                            name="message"
+                            onChange={(ev) => changeHandler(ev)}
+                        >
+                            {data.message}
+                        </textarea>
                     </div>
                     <button className={`${styles["send-btn"]}`}>Send Message</button>
                 </form >
