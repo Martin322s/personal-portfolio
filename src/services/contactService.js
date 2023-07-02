@@ -1,4 +1,4 @@
-const url = "http://localhost:3030/contact";
+const url = "http://localhost:3030/users/contact";
 
 export const contactEmail = (data) => {
     return fetch(url, {
