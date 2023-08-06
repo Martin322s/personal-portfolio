@@ -1,12 +1,13 @@
 const url = "http://localhost:3030/users/contact";
 
-export const contactEmail = (data) => {
-    return fetch(url, {
+export const contactEmail = async (data) => {
+    const res = await fetch(url, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify(data)
-    })
-        .then(res => res.json());
+    });
+    
+    return await res.json();
 };
