@@ -96,7 +96,7 @@ const Contact = () => {
                     <ul>
                         <li><i className="fas fa-map-marked-alt"></i>  Sofia, Studentski grad 4, Str.</li>
                         <li><i className="fas fa-phone-alt"></i>  +359 877040853</li>
-                        <li><i className="fas fa-envelope"></i>  marti.sofroniev12@abv.bg</li>
+                        <li><i className="fas fa-envelope"></i>  m.sofroniev12@gmail.com</li>
                         <li><i className="fab fa-facebook-square"></i>  Martin Sofroniev</li>
                         <li><i className="fab fa-instagram"></i>  @martin13s18</li>
                         <li><i className="fab fa-github-square"></i>  Martin322s</li>
